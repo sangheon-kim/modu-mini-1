@@ -1,0 +1,39 @@
+.BottomTab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.TabItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  color: #999;
+
+  &.active {
+    color: #222;
+  }
+  i {
+    font-size: 20px;
+    color: inherit;
+  }
+  .TabItemLabel {
+    font-size: 12px;
+  }
+}
+
+.AddTodoButton {
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #2165fd;
+  i {
+    color: #2165fd;
+  }
+}
